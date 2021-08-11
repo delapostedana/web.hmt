@@ -1,96 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>PT Hidup Makmur Terencana</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="vendors/animate-css/animate.css">
-	<link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
-	<link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/swiper/css/swiper.min.css">
-	<link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.css">
-	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
-		rel="stylesheet">
-	
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-	<!--================ Canvus Menu Area =================-->
-	<!-- <div class="canvus_menu">
-		<div class="container">
-			<img style="width: 100px; margin-top: 20px;" src="img/logo.png" alt="">
-		</div>
-	</div> -->
-	<!--================ End Canvus Menu Area =================-->
-
-	<section class="top-btn-area">
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container">
-				<a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 100px;" alt=""></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-					<ul class="navbar-nav mr-auto" style="font-size: 12pt; margin-left: 60px;">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Gallery</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Packages</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact Us</a>
-						</li>
-						<li class="nav-item">
-							<div class="nice-select text-right" tabindex="0">
-								<span class="current">English</span>
-								<ul class="list">
-									<li data-value="1" class="option focus selected"><img src="img/flag-eng.jpg" width="20px" alt=""> English</li>
-									<li data-value="1" class="option"> <img src="img/flag-indo.png" width="20px" alt=""> Indonesia</li>
-								</ul>
-							</div>
-						</li>
-
-					</ul>
-					<div class="my-2 my-lg-0 text-center find-me">
-<p>Find me on :</p>
-<div style="margin-top: -20px;" class="text-center">
-<a href=""><i class="fa fa-facebook"></i></a> | 
-<a href=""><i class="fa fa-instagram"></i></a> | 
-<a href=""><i class="fa fa-youtube"></i></a>
-</div>
-					</div>
-					<!-- <a href="#" class="main_btn my-2 my-lg-0">
-						Get On Playstore
-						<img src="img/next.png" alt="">
-					</a> -->
-				</div>
-			</div>
-		</nav>
-	</section>
+<?php include('header.php'); ?>
 
 	<!--================ Start banner section =================-->
 	<section class="home-banner-area relative">
@@ -107,7 +15,7 @@
 						see some for as low as $.17 each.
 					</p>
 					<a href="#" class="main_btn">
-						<img src="img/playstore.png" style="width: 25px; right: 190px;" alt=""> 
+						<img src="img/playstore.png" style="width: 25px; right: 190px;" alt="">
 						<span style="margin-left: 20px;"> get it on playstore</span>
 						<img src="img/next.png" alt="">
 					</a>
@@ -323,69 +231,148 @@
 				<div class="col-lg-4">
 					<div class="main_title">
 						<h1>9 Reason why to choose HMT</h1>
-						<p>HMT Tour & Travel terus berkembang pesat dan membuat inovasi-inovasi baru yang memungkinkan semua kalangan untuk pergi berwisata, baik wisata ziarah rohani maupun wisata reguler.
+						<p>HMT Tour & Travel terus berkembang pesat dan membuat inovasi-inovasi baru yang memungkinkan
+							semua kalangan untuk pergi berwisata, baik wisata ziarah rohani maupun wisata reguler.
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-8">
 					<div class="offset-lg-1">
 						<div class="owl-carousel active_testimonial row">
-		
+
 							<!-- single testi -->
 							<div class=" col-lg-12">
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-sm-6">
 										<div class="single-amenities bg-white">
 											<div class="amenities-details">
-												<h5>1.	SUDAH TERBUKTI</h5>
-												<p>HMT Tour & Travel telah terbukti memberangkatkan ribuan orang sejak berdirinya di tahun 2009 sampai dengan sekarang. Hingga kini tercatat sudah belasan ribu peserta wisata diberangkatkan ke Tanah Perjanjian atau ke tujuan wisata lainnya.</p>
+												<h5>1. SUDAH TERBUKTI</h5>
+												<p>HMT Tour & Travel telah terbukti memberangkatkan ribuan orang sejak
+													berdirinya di tahun 2009 sampai dengan sekarang. Hingga kini
+													tercatat sudah belasan ribu peserta wisata diberangkatkan ke Tanah
+													Perjanjian atau ke tujuan wisata lainnya.</p>
 											</div>
 										</div>
 									</div>
-		
+
 									<div class="col-lg-6 col-md-6 col-sm-6">
 										<div class="single-amenities bg-white">
 											<div class="amenities-details">
-												<h5>Luxerious Car
-														Rental Service Available</h5>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-													incididunt ut labore et
-													dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+												<h5>2. NOMOR SATU</h5>
+												<p>HMT Tour & Travel mendapatkan Penghargaan dari Museum Rekor Indonesia
+													(MURI) untuk jumlah keberangkatan terbanyak pada bulan Oktober 2016,
+													yang bertepatan dengan Perayaan Ulang Tahun HMT Tour & Travel ke-7.
+												</p>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-		
+
 							<div class=" col-lg-12">
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-sm-6">
 										<div class="single-amenities bg-white">
 											<div class="amenities-details">
-												<h5>Luxerious Car
-														Rental Service Available</h5>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-													incididunt ut labore et
-													dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+												<h5>3. SATU-SATUNYA</h5>
+												<p>HMT Tour & Travel menjadi SATU-SATUNYA Perusahaan Tour & Travel di
+													Asia yang mendapatkan Penghargaan langsung dari Israel, melalui
+													Israel - Asia Chamber of Commerce pada bulan Juni 2014, juga atas
+													prestasi jumlah keberangkatan terbanyak pada saat itu.</p>
 											</div>
 										</div>
 									</div>
-		
+
 									<div class="col-lg-6 col-md-6 col-sm-6">
 										<div class="single-amenities bg-white">
 											<div class="amenities-details">
-												<h5>Luxerious Car
-														Rental Service Available</h5>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-													incididunt ut labore et
-													dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+												<h5>4. TERPERCAYA</h5>
+												<p>HMT Tour & Travel telah MENDAPATKAN KEPERCAYAAN dari berbagai lembaga
+													di Indonesia untuk bekerja sama dalam program ziarah rohani ke Holy
+													Land. Lembaga-lembaga yang pernah dan masih bekerja sama dengan HMT
+													Tour & Travel, antara lain: METRO TV, BPK GUNUNG MULIA, LIFE, RPK,
+													MAESTRO, KOPERASI TNI AL, DEPARTEMEN PEMUDA DAN ANAK GBI, DANAMON,
+													TELKOMSEL, KOKARFI.
+												</p>
 											</div>
 										</div>
 									</div>
-		
+
 								</div>
 							</div>
-							
+
+							<div class=" col-lg-12">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="single-amenities bg-white">
+											<div class="amenities-details">
+												<h5>5. PELAYANAN TERBAIK</h5>
+												<p>HMT Tour & Travel sangat memperhatikan kualitas pelayanan, oleh
+													karena kami berkomitmen untuk memberikan PELAYANAN TERBAIK kepada
+													semua peserta wisata.
+													Hal ini bisa dibuktikan dari:
+													Quisioner yang diisi oleh peserta wisata menyatakan tingkat kepuasan
+													diatas 98%,
+													Testimony para peserta wisata yang selalu puas dengan pelayanan HMT
+													Tour & Travel,
+													Keinginan para peserta wisata untuk berangkat lagi bersama HMT Tour
+													& Travel (Repeat Order).
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="single-amenities bg-white">
+											<div class="amenities-details">
+												<h5>6. KUALITAS TERBAIK</h5>
+												<p>HMT Tour & Travel memberikan paket wisata dengan harga yang
+													terjangkau namun dengan KUALITAS TERBAIK, antara lain: Pesawat
+													terbaik, asuransi terbaik, layanan terbaik, hotel terbaik,
+													restaurant terbaik, bis terbaik, tour leader terbaik, guide lokal
+													terbaik, dan lain-lain.
+												</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class=" col-lg-12">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="single-amenities bg-white">
+											<div class="amenities-details">
+												<h5>7. PAKET TERLENGKAP</h5>
+												<p>HMT Tour & Travel memberikan paket wisata TERLENGKAP, antara lain:
+													Paket Holy Land 12 Hari (Bukan 11 hari),
+													Bonus menginap di Sharm EI Sheikh dan menikmati Glass Boat (Free),
+													Pada musim dingin bisa mengunjungi Gunung Hermon. <br>
+													HMT Tour & Travel juga memiliki itinerary bervariasi dan bermanfaat
+													yang tidak dijumpai di travel lain, seperti itinerary khusus
+													kalangan dokter, pertanian, serta kaum professional lainnya.
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="single-amenities bg-white">
+											<div class="amenities-details">
+												<h5>8. PEMBAYARAN FLEKSIBEL</h5>
+												<p>HMT Tour & Travel menjadi satu-satunya perusahaan Tour & travel di
+													Indonesia yang memiliki sistem pembayaran yang fleksibel, yang dapat
+													disesuaikan dengan kondisi peserta wisata, yaitu dengan 3 cara
+													sebagai berikut :
+												</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -637,139 +624,4 @@
 	</section>
 	<!--================ End Blog Area =================-->
 
-	<!--================ start footer Area  =================-->
-	<footer class="footer-area">
-		<div class="container">
-			<div class="row footer-top">
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h6>About Crafted</h6>
-						<p>
-							The world has become so fast paced that people don’t want to stand by reading a page of
-							information, they would
-							much rather look.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h6>Navigation Links</h6>
-						<div class="row">
-							<ul class="col footer-nav">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="project.html">Project</a></li>
-							</ul>
-							<ul class="col footer-nav">
-								<li><a href="team-members.html">Team Members</a></li>
-								<li><a href="blog-single.html">Blog</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h6>Newsletter</h6>
-						<p>For business professionals caught between high OEM price mediocre print and graphic.</p>
-						<div class="" id="mc_embed_signup">
-
-							<form target="_blank" novalidate="true"
-								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-								method="get" class="form-inline">
-
-								<div class="d-flex flex-row">
-
-									<input class="form-control" name="EMAIL" placeholder="Enter Email"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
-										required="" type="email">
-
-
-									<button class="click-btn btn btn-default">
-										<i class="fa fa-paper-plane" aria-hidden="true"></i>
-									</button>
-									<div style="position: absolute; left: -5000px;">
-										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
-											type="text">
-									</div>
-								</div>
-								<div class="info"></div>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget mail-chimp">
-						<h6 class="mb-20">Instafeed</h6>
-						<ul class="instafeed d-flex flex-wrap">
-							<li><img src="img/instagram/i1.jpg" alt=""></li>
-							<li><img src="img/instagram/i2.jpg" alt=""></li>
-							<li><img src="img/instagram/i3.jpg" alt=""></li>
-							<li><img src="img/instagram/i4.jpg" alt=""></li>
-							<li><img src="img/instagram/i5.jpg" alt=""></li>
-							<li><img src="img/instagram/i6.jpg" alt=""></li>
-							<li><img src="img/instagram/i7.jpg" alt=""></li>
-							<li><img src="img/instagram/i8.jpg" alt=""></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
-			<div class="container">
-				<div class="row justify-content-between">
-					<div>
-						<p class="footer-text m-0">
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | This
-							template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-								href="https://colorlib.com" target="_blank">Colorlib</a>
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						</p>
-					</div>
-					<div class="footer-social d-flex align-items-center">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================ End footer Area  =================-->
-
-
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="vendors/jquery-ui/jquery-ui.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/swiper/js/swiper.min.js"></script>
-	<script src="vendors/scroll/jquery.mCustomScrollbar.js"></script>
-	<script src="js/theme.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
-	<script>
-		$(window).scroll(function () {
-			var y = $(window).scrollTop()
-			if (y > 10) {
-				$('nav').css('background-color', '#f8f9fa!important;');
-			} else {
-				$('nav').css('background-color', 'white');
-			}
-		});
-	</script>
-</body>
-
-</html>
+	<?php include('footer.php'); ?>

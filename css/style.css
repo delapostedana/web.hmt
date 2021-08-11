@@ -135,6 +135,13 @@ button:focus {
   padding-right: 0px;
 }
 
+.dropcap{
+  float:left;
+  margin-right:5px;
+  font-size:30pt;
+  vertical-align:text-top;
+  }
+
 .overlay {
   position: absolute;
   top: 0px;
